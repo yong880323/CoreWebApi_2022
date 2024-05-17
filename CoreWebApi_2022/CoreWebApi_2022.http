@@ -1,0 +1,6 @@
+@CoreWebApi_2022_HostAddress = http://localhost:5242
+
+GET {{CoreWebApi_2022_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
