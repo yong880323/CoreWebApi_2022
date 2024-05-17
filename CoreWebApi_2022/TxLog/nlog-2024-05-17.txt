@@ -1,0 +1,20 @@
+2024-05-17 17:31:21.2689|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:7063
+2024-05-17 17:31:21.2689|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5242
+2024-05-17 17:31:21.3121|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-05-17 17:31:21.3121|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2024-05-17 17:31:21.3121|INFO|Microsoft.Hosting.Lifetime|Content root path: D:\test\CoreWebApi_2022\CoreWebApi_2022
+2024-05-17 17:31:22.4437|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7063/swagger/index.html - - -
+2024-05-17 17:31:22.6254|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7063/swagger/index.html - 200 - text/html;charset=utf-8 184.2862ms
+2024-05-17 17:31:22.6362|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7063/_vs/browserLink - - -
+2024-05-17 17:31:22.6362|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - - -
+2024-05-17 17:31:22.6362|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7063/_framework/aspnetcore-browser-refresh.js - 200 13766 application/javascript;+charset=utf-8 4.2932ms
+2024-05-17 17:31:22.6796|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7063/_vs/browserLink - 200 - text/javascript;+charset=UTF-8 43.5052ms
+2024-05-17 17:31:22.7193|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - - -
+2024-05-17 17:31:22.9923|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7063/swagger/v1/swagger.json - 200 - application/json;charset=utf-8 273.1050ms
+2024-05-17 17:31:25.9615|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:7063/WeatherForecast - - -
+2024-05-17 17:31:25.9615|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'CoreWebApi_2022.Controllers.WeatherForecastController.Get (CoreWebApi_2022)'
+2024-05-17 17:31:25.9753|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[CoreWebApi_2022.WeatherForecast] Get() on controller CoreWebApi_2022.Controllers.WeatherForecastController (CoreWebApi_2022).
+2024-05-17 17:31:25.9753|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing ObjectResult, writing value of type 'CoreWebApi_2022.WeatherForecast[]'.
+2024-05-17 17:31:25.9902|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action CoreWebApi_2022.Controllers.WeatherForecastController.Get (CoreWebApi_2022) in 11.2927ms
+2024-05-17 17:31:25.9902|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'CoreWebApi_2022.Controllers.WeatherForecastController.Get (CoreWebApi_2022)'
+2024-05-17 17:31:25.9902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:7063/WeatherForecast - 200 - application/json;+charset=utf-8 29.0015ms
