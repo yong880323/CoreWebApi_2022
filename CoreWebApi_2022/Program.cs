@@ -1,3 +1,5 @@
+using CoreWebApi.Data;
+using Microsoft.EntityFrameworkCore;
 using NLog;
 using NLog.Web;
 
@@ -17,6 +19,9 @@ try
 	// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 	builder.Services.AddEndpointsApiExplorer();
 	builder.Services.AddSwaggerGen();
+
+	builder.Services.AddDbContext<CoreWebApiContext>
+		(options => options.UseSqlite("Name=CoreWebApiDB"));
 
 	var app = builder.Build();
 
